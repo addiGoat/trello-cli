@@ -52,18 +52,19 @@ def get_board_data() -> dict[str, Any]:
     
         lists_data.append(serializers.serialize_list(trellist, list_index, cards_data))
 
-    data = {
-            "id": board.id,
-            "name": board.name,
-            "url": board.url,
-            "lists": lists_data
-            }
+    
+    data = serializers.serialize_board(board, lists_data)
+
     return data
 
 
+
 def main() -> int:
-    print(json.dumps(get_board_data()))
+    print(json.dumps({
+        "ok": True,
+        "data": get_board_data()
+        }))
     return 0
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
