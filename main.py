@@ -1,11 +1,12 @@
-import enum
-
 from trello import TrelloClient
 from dotenv import load_dotenv
 from typing import Any
-import os
+import serializers
 import json
+import sys
+import os
 
+BOARD_ID = "W1MmHKBG"
 load_dotenv()
 
 api_key = os.getenv("API_KEY")
@@ -26,69 +27,65 @@ client = TrelloClient(
     token=app_token
 )
 
-BOARD_ID = "W1MmHKBG"
-everything_board = client.get_board("W1MmHKBG")
+try:
+    everything_board = client.get_board(BOARD_ID)
+except Exception as e:
+    error_data = {
+            "ok": False,
+            "error": {
+                "code": type(e).__name__,
+                "message": str(e)
+                }
+            }
+    print(json.dumps(error_data))
+    sys.exit(1)
 
 
-def serialize_board(board, lists: list) -> dict[str, Any]:
+
+def get_board_data(board) -> dict[str, Any]:
+    lists_data = []
+    for list_index, trellist in enumerate(board.all_lists()):
+        cards_data = []
+    
+        for card_index, card in enumerate(trellist.list_cards()):
+            labels_data = []
+    
+            for label in card.labels:
+                labels_data.append(serializers.serialize_label(label))
+    
+            cards_data.append(serializers.serialize_card(card, card_index, labels_data))
+    
+        lists_data.append(serializers.serialize_list(trellist, list_index, cards_data))
+
     data = {
-        "id": board.id,
-        "name": board.name,
-        "url": board.url,
-        "lists": lists
-    }
+            "id": board.id,
+            "name": board.name,
+            "url": board.url,
+            "lists": lists_data
+            }
     return data
 
-def serialize_list(list_object, index: int, cards: list) -> dict[str, Any]:
-    data = {
-        "id": list_object.id,
-        "name": list_object.name,
-        "position": index,
-        "cards": cards
-    }
-    return data
 
-def serialize_card(card, index: int, labels: list) -> dict[str, Any]:
-    data = {
-        "id": card.id,
-        "name": card.name,
-        "url": card.url,
-        "position": index,
-        "labels": labels 
-    }
-    return data
-
-def serialize_label(label) -> dict[str, Any]:
-    data = {
-        "id": label.id,
-        "name": label.name,
-        "color": label.color
-    }
-    return data
+print(get_board_data)
 
 
-
-
-
-
-lists_data = []
-# im really sorry for this variable name
-for index, trellist in enumerate(everything_board.all_lists()):
-    cards_data = []
-
-    for index, card in enumerate(trellist.list_cards()):
-        labels_data = []
-
-        for label in card.labels:
-            labels_data.append(serialize_label(label))
-
-        cards_data.append(serialize_card(card, index, labels_data))
-
-    lists_data.append(serialize_list(trellist, index, cards_data))
-
-
-board_data = serialize_board(everything_board, lists_data)
-
-board_json = json.dumps(board_data)
-print(board_json)
+# DONT DELETE ME THIS IS VERY IMPORTANT MAKE SURE YOU KEEP THIS CAUSE IT ACTUALLY WORKS
+# lists_data = []
+# for list_index, trellist in enumerate(everything_board.all_lists()):
+#     cards_data = []
+#
+#     for card_index, card in enumerate(trellist.list_cards()):
+#         labels_data = []
+#
+#         for label in card.labels:
+#             labels_data.append(serializers.serialize_label(label))
+#
+#         cards_data.append(serializers.serialize_card(card, card_index, labels_data))
+#
+#     lists_data.append(serializers.serialize_list(trellist, list_index, cards_data))
+#
+# board_data = serializers.serialize_board(everything_board, lists_data)
+#
+# board_json = json.dumps(board_data)
+# print(board_json)
 
