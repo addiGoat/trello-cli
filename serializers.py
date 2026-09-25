@@ -18,7 +18,7 @@ def serialize_list(list_object, index: int, cards: list) -> dict[str, Any]:
     }
     return data
 
-def serialize_card(card, index: int, labels: list) -> dict[str, Any]:
+def serialize_card_summary(card, index: int, labels: list) -> dict[str, Any]:
     data = {
         "id": card.id,
         "name": card.name,
@@ -35,3 +35,49 @@ def serialize_label(label) -> dict[str, Any]:
         "color": label.color
     }
     return data
+
+def serialize_comment(comment) -> dict[str, str]:
+    author = comment["memberCreator"]
+    data = {
+        "id": comment["id"],
+        "text": comment["data"]["text"],
+        "created_at": comment["date"],
+        "author": {
+            "id": author["id"],
+            "name": author["username"],
+            "avatar_url": author["avatarUrl"]
+        }
+    }
+
+    return data
+
+def serialize_card_detail(card, labels: list, comments: list) -> dict[str, Any]:
+    parent_list = card.get_list()
+
+    data = {
+        "id": card.id,
+        "name": card.name,
+        "description": card.description,
+        "url": card.url,
+        "list": {
+            "id": parent_list.id,
+            "name": parent_list.name,
+            },
+        "labels": labels,
+        "comments": comments
+    }
+    return data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
