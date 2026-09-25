@@ -71,39 +71,14 @@ def get_card_by_id(id) -> dict[str, Any]:
     card_data = serializers.serialize_card_detail(card, label_data, comments)
 
     return card_data
+
     
-
-
-
-    # "id": "card_id",
-    # "name": "Build a Trello desktop widget",
-    # "description": "Build a minimal Quickshell interface...",
-    # "url": "https://trello.com/c/...",
-    # "list": { "id": "list_id", "name": "Active" },
-    # "labels": [
-    #   { "id": "label_id", "name": "Quickshell", "color": "blue" }
-    # ],
-    # "comments": [
-    #   {
-    #     "id": "comment_id",
-    #     "text": "API authentication is working.",
-    #     "created_at": "2026-09-24T18:30:00Z",
-    #     "author": {
-    #       "id": "member_id",
-    #       "name": "Addi",
-    #       "avatar_url": "https://..."
-    #     }
-    #   }
-    # ]
-
-
 def main() -> int:
 
+
     
-    card = get_card_by_id("G0xi8dGB")
+    # card = get_card_by_id("6ab4c75cd63992f70d839f34")
 
-
-    print(json.dumps(card))
     # for comment in card.get_comments():
     #     print(json.dumps(comment))
     # print(json.dumps({
