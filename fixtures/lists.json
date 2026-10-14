@@ -1,0 +1,280 @@
+[
+  {
+    "id": "6aced4a496316f2e55f7f419",
+    "name": "Active",
+    "closed": false,
+    "color": null,
+    "idBoard": "6aced4a0590495b4b60d0ac0",
+    "pos": 16384,
+    "subscribed": false,
+    "softLimit": null,
+    "type": null,
+    "datasource": {
+      "filter": false
+    },
+    "cards": [
+      {
+        "id": "6aced4bfd6e0f46512f0430c",
+        "agent": null,
+        "badges": {
+          "attachments": 0,
+          "fogbugz": "",
+          "checkItems": 0,
+          "checkItemsChecked": 0,
+          "checkItemsEarliestDue": null,
+          "comments": 1,
+          "description": true,
+          "due": "2026-10-30T01:04:00.000Z",
+          "dueComplete": false,
+          "lastUpdatedByAi": false,
+          "start": null,
+          "externalSource": null,
+          "attachmentsByType": {
+            "trello": {
+              "board": 0,
+              "card": 0
+            }
+          },
+          "location": false,
+          "votes": 0,
+          "maliciousAttachments": 0,
+          "viewingMemberVoted": false,
+          "subscribed": true
+        },
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2026-10-14T01:05:18.714Z",
+        "desc": "Decal rendering passes are tanking frames in the new maps. Get team C to investigate the code.",
+        "descData": {
+          "emoji": {}
+        },
+        "due": "2026-10-30T01:04:00.000Z",
+        "dueReminder": 1440,
+        "email": null,
+        "idBoard": "6aced4a0590495b4b60d0ac0",
+        "idChecklists": [],
+        "idList": "6aced4a496316f2e55f7f419",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 1,
+        "idAttachmentCover": null,
+        "labels": [
+          {
+            "id": "6aced4a0590495b4b60d0b18",
+            "idBoard": "6aced4a0590495b4b60d0ac0",
+            "idOrganization": "69714d4e56818fe69a938588",
+            "name": "",
+            "nodeId": "ari:cloud:trello::label/workspace/69714d4e56818fe69a938588/6aced4a0590495b4b60d0b18",
+            "color": "green",
+            "uses": 1
+          }
+        ],
+        "idLabels": [
+          "6aced4a0590495b4b60d0b18"
+        ],
+        "lastSummaryChangeEventAt": null,
+        "manifest": null,
+        "manualCoverAttachment": false,
+        "name": "Refactor nvidia physx decal rendering.",
+        "nodeId": "ari:cloud:trello::card/workspace/69714d4e56818fe69a938588/6aced4bfd6e0f46512f0430c",
+        "pinned": false,
+        "pos": 140737488355328,
+        "shortLink": "t1xnhEgG",
+        "shortUrl": "https://trello.com/c/t1xnhEgG",
+        "start": null,
+        "subscribed": true,
+        "url": "https://trello.com/c/t1xnhEgG/1-refactor-nvidia-physx-decal-rendering",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "dark",
+          "yPosition": 0.5,
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "mirrorSourceId": null
+      }
+    ]
+  },
+  {
+    "id": "6aced4a75cb46014c84f55c2",
+    "name": "Todo",
+    "closed": false,
+    "color": null,
+    "idBoard": "6aced4a0590495b4b60d0ac0",
+    "pos": 32768,
+    "subscribed": false,
+    "softLimit": null,
+    "type": null,
+    "datasource": {
+      "filter": false
+    },
+    "cards": []
+  },
+  {
+    "id": "6aced4a9814b88e677ddab2f",
+    "name": "Completed",
+    "closed": false,
+    "color": null,
+    "idBoard": "6aced4a0590495b4b60d0ac0",
+    "pos": 49152,
+    "subscribed": false,
+    "softLimit": null,
+    "type": null,
+    "datasource": {
+      "filter": false
+    },
+    "cards": [
+      {
+        "id": "6aced4ce54e84ef526d95614",
+        "agent": null,
+        "badges": {
+          "attachments": 0,
+          "fogbugz": "",
+          "checkItems": 0,
+          "checkItemsChecked": 0,
+          "checkItemsEarliestDue": null,
+          "comments": 0,
+          "description": false,
+          "due": null,
+          "dueComplete": false,
+          "lastUpdatedByAi": false,
+          "start": null,
+          "externalSource": null,
+          "attachmentsByType": {
+            "trello": {
+              "board": 0,
+              "card": 0
+            }
+          },
+          "location": false,
+          "votes": 0,
+          "maliciousAttachments": 0,
+          "viewingMemberVoted": false,
+          "subscribed": false
+        },
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2026-10-14T01:03:10.137Z",
+        "desc": "",
+        "descData": {
+          "emoji": {}
+        },
+        "due": null,
+        "dueReminder": null,
+        "email": null,
+        "idBoard": "6aced4a0590495b4b60d0ac0",
+        "idChecklists": [],
+        "idList": "6aced4a9814b88e677ddab2f",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 2,
+        "idAttachmentCover": null,
+        "labels": [],
+        "idLabels": [],
+        "lastSummaryChangeEventAt": null,
+        "manifest": null,
+        "manualCoverAttachment": false,
+        "name": "Initialize project and finalize design constraints",
+        "nodeId": "ari:cloud:trello::card/workspace/69714d4e56818fe69a938588/6aced4ce54e84ef526d95614",
+        "pinned": false,
+        "pos": 140737488355328,
+        "shortLink": "XN7FXOwz",
+        "shortUrl": "https://trello.com/c/XN7FXOwz",
+        "start": null,
+        "subscribed": false,
+        "url": "https://trello.com/c/XN7FXOwz/2-initialize-project-and-finalize-design-constraints",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "dark",
+          "yPosition": 0.5,
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "mirrorSourceId": null
+      },
+      {
+        "id": "6aced4dce563a2175649382b",
+        "agent": null,
+        "badges": {
+          "attachments": 0,
+          "fogbugz": "",
+          "checkItems": 0,
+          "checkItemsChecked": 0,
+          "checkItemsEarliestDue": null,
+          "comments": 0,
+          "description": false,
+          "due": null,
+          "dueComplete": false,
+          "lastUpdatedByAi": false,
+          "start": null,
+          "externalSource": null,
+          "attachmentsByType": {
+            "trello": {
+              "board": 0,
+              "card": 0
+            }
+          },
+          "location": false,
+          "votes": 0,
+          "maliciousAttachments": 0,
+          "viewingMemberVoted": false,
+          "subscribed": false
+        },
+        "checkItemStates": [],
+        "closed": false,
+        "dueComplete": false,
+        "dateLastActivity": "2026-10-14T01:03:24.467Z",
+        "desc": "",
+        "descData": {
+          "emoji": {}
+        },
+        "due": null,
+        "dueReminder": null,
+        "email": null,
+        "idBoard": "6aced4a0590495b4b60d0ac0",
+        "idChecklists": [],
+        "idList": "6aced4a9814b88e677ddab2f",
+        "idMembers": [],
+        "idMembersVoted": [],
+        "idShort": 3,
+        "idAttachmentCover": null,
+        "labels": [],
+        "idLabels": [],
+        "lastSummaryChangeEventAt": null,
+        "manifest": null,
+        "manualCoverAttachment": false,
+        "name": "Assign agents to categorized teams",
+        "nodeId": "ari:cloud:trello::card/workspace/69714d4e56818fe69a938588/6aced4dce563a2175649382b",
+        "pinned": false,
+        "pos": 140737488371712,
+        "shortLink": "X9g6mQR1",
+        "shortUrl": "https://trello.com/c/X9g6mQR1",
+        "start": null,
+        "subscribed": false,
+        "url": "https://trello.com/c/X9g6mQR1/3-assign-agents-to-categorized-teams",
+        "cover": {
+          "idAttachment": null,
+          "color": null,
+          "idUploadedBackground": null,
+          "size": "normal",
+          "brightness": "dark",
+          "yPosition": 0.5,
+          "idPlugin": null
+        },
+        "isTemplate": false,
+        "cardRole": null,
+        "mirrorSourceId": null
+      }
+    ]
+  }
+]

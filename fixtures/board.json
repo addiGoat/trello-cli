@@ -1,0 +1,413 @@
+{
+  "id": "6aced4a0590495b4b60d0ac0",
+  "name": "Example",
+  "desc": "",
+  "descData": null,
+  "closed": false,
+  "idOrganization": "69714d4e56818fe69a938588",
+  "idEnterprise": null,
+  "pinned": false,
+  "url": "https://trello.com/b/jKeEvUKT/example",
+  "shortUrl": "https://trello.com/b/jKeEvUKT",
+  "prefs": {
+    "permissionLevel": "org",
+    "hideVotes": false,
+    "voting": "disabled",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": true,
+    "cardCovers": true,
+    "showCompleteStatus": true,
+    "cardCounts": false,
+    "isTemplate": false,
+    "cardAging": "regular",
+    "calendarFeedEnabled": false,
+    "hiddenPluginBoardButtons": [],
+    "switcherViews": [
+      {
+        "viewType": "Board",
+        "enabled": true
+      },
+      {
+        "viewType": "Table",
+        "enabled": true
+      },
+      {
+        "viewType": "Calendar",
+        "enabled": false
+      },
+      {
+        "viewType": "Dashboard",
+        "enabled": false
+      },
+      {
+        "viewType": "Timeline",
+        "enabled": false
+      },
+      {
+        "viewType": "Map",
+        "enabled": false
+      }
+    ],
+    "autoArchive": null,
+    "background": "6a1f2bc041517329020e0246",
+    "backgroundColor": null,
+    "backgroundDarkColor": null,
+    "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/69bfcbac18af97d5550825ada7463d88/photo-1779464433199-ca57ba28339b",
+    "backgroundDarkImage": null,
+    "backgroundImageScaled": [
+      {
+        "width": 140,
+        "height": 88,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/140x88/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 256,
+        "height": 160,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/256x160/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 480,
+        "height": 300,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/480x300/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 960,
+        "height": 600,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/960x600/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 1024,
+        "height": 640,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/1024x640/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 1280,
+        "height": 800,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/1280x800/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 1920,
+        "height": 1200,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/1920x1200/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 2048,
+        "height": 1280,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/2048x1280/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      },
+      {
+        "width": 2560,
+        "height": 1600,
+        "url": "https://trello-backgrounds.s3.us-east-1.amazonaws.com/SharedBackground/2560x1600/42ab762274907d21dcab5d3537b295ce/photo-1779464433199-ca57ba28339b.webp"
+      }
+    ],
+    "backgroundTile": false,
+    "backgroundBrightness": "dark",
+    "sharedSourceUrl": "https://images.unsplash.com/photo-1779464433199-ca57ba28339b?h=2048&q=90&w=2560&ixid=M3w3MDY2fDB8MXxjb2xsZWN0aW9ufDF8MzE3MDk5fHx8fHwyfHwxNzgwNDE5MjczfA&ixlib=rb-4.1.0",
+    "backgroundBottomColor": "#122634",
+    "backgroundTopColor": "#043395",
+    "canBePublic": true,
+    "canBeEnterprise": true,
+    "canBeOrg": true,
+    "canBePrivate": true,
+    "canInvite": true
+  },
+  "labelNames": {
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "red": "",
+    "purple": "",
+    "blue": "",
+    "sky": "",
+    "lime": "",
+    "pink": "",
+    "black": "",
+    "green_dark": "",
+    "yellow_dark": "",
+    "orange_dark": "",
+    "red_dark": "",
+    "purple_dark": "",
+    "blue_dark": "",
+    "sky_dark": "",
+    "lime_dark": "",
+    "pink_dark": "",
+    "black_dark": "",
+    "green_light": "",
+    "yellow_light": "",
+    "orange_light": "",
+    "red_light": "",
+    "purple_light": "",
+    "blue_light": "",
+    "sky_light": "",
+    "lime_light": "",
+    "pink_light": "",
+    "black_light": ""
+  },
+  "cards": [
+    {
+      "id": "6aced4bfd6e0f46512f0430c",
+      "agent": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "externalSource": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2026-10-14T01:02:55.419Z",
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": null,
+      "idBoard": "6aced4a0590495b4b60d0ac0",
+      "idChecklists": [],
+      "idList": "6aced4a496316f2e55f7f419",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 1,
+      "idAttachmentCover": null,
+      "labels": [],
+      "idLabels": [],
+      "lastSummaryChangeEventAt": null,
+      "manifest": null,
+      "manualCoverAttachment": false,
+      "name": "Refactor nvidia physx decal rendering.",
+      "nodeId": "ari:cloud:trello::card/workspace/69714d4e56818fe69a938588/6aced4bfd6e0f46512f0430c",
+      "pinned": false,
+      "pos": 140737488355328,
+      "shortLink": "t1xnhEgG",
+      "shortUrl": "https://trello.com/c/t1xnhEgG",
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/t1xnhEgG/1-refactor-nvidia-physx-decal-rendering",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "yPosition": 0.5,
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null
+    },
+    {
+      "id": "6aced4ce54e84ef526d95614",
+      "agent": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "externalSource": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2026-10-14T01:03:10.137Z",
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": null,
+      "idBoard": "6aced4a0590495b4b60d0ac0",
+      "idChecklists": [],
+      "idList": "6aced4a9814b88e677ddab2f",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 2,
+      "idAttachmentCover": null,
+      "labels": [],
+      "idLabels": [],
+      "lastSummaryChangeEventAt": null,
+      "manifest": null,
+      "manualCoverAttachment": false,
+      "name": "Initialize project and finalize design constraints",
+      "nodeId": "ari:cloud:trello::card/workspace/69714d4e56818fe69a938588/6aced4ce54e84ef526d95614",
+      "pinned": false,
+      "pos": 140737488355328,
+      "shortLink": "XN7FXOwz",
+      "shortUrl": "https://trello.com/c/XN7FXOwz",
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/XN7FXOwz/2-initialize-project-and-finalize-design-constraints",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "yPosition": 0.5,
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null
+    },
+    {
+      "id": "6aced4dce563a2175649382b",
+      "agent": null,
+      "badges": {
+        "attachments": 0,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "lastUpdatedByAi": false,
+        "start": null,
+        "externalSource": null,
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "maliciousAttachments": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false
+      },
+      "checkItemStates": [],
+      "closed": false,
+      "dueComplete": false,
+      "dateLastActivity": "2026-10-14T01:03:24.467Z",
+      "desc": "",
+      "descData": {
+        "emoji": {}
+      },
+      "due": null,
+      "dueReminder": null,
+      "email": null,
+      "idBoard": "6aced4a0590495b4b60d0ac0",
+      "idChecklists": [],
+      "idList": "6aced4a9814b88e677ddab2f",
+      "idMembers": [],
+      "idMembersVoted": [],
+      "idShort": 3,
+      "idAttachmentCover": null,
+      "labels": [],
+      "idLabels": [],
+      "lastSummaryChangeEventAt": null,
+      "manifest": null,
+      "manualCoverAttachment": false,
+      "name": "Assign agents to categorized teams",
+      "nodeId": "ari:cloud:trello::card/workspace/69714d4e56818fe69a938588/6aced4dce563a2175649382b",
+      "pinned": false,
+      "pos": 140737488371712,
+      "shortLink": "X9g6mQR1",
+      "shortUrl": "https://trello.com/c/X9g6mQR1",
+      "start": null,
+      "subscribed": false,
+      "url": "https://trello.com/c/X9g6mQR1/3-assign-agents-to-categorized-teams",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "yPosition": 0.5,
+        "idPlugin": null
+      },
+      "isTemplate": false,
+      "cardRole": null,
+      "mirrorSourceId": null
+    }
+  ],
+  "lists": [
+    {
+      "id": "6aced4a496316f2e55f7f419",
+      "name": "Active",
+      "closed": false,
+      "color": null,
+      "idBoard": "6aced4a0590495b4b60d0ac0",
+      "pos": 16384,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      }
+    },
+    {
+      "id": "6aced4a75cb46014c84f55c2",
+      "name": "Todo",
+      "closed": false,
+      "color": null,
+      "idBoard": "6aced4a0590495b4b60d0ac0",
+      "pos": 32768,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      }
+    },
+    {
+      "id": "6aced4a9814b88e677ddab2f",
+      "name": "Completed",
+      "closed": false,
+      "color": null,
+      "idBoard": "6aced4a0590495b4b60d0ac0",
+      "pos": 49152,
+      "subscribed": false,
+      "softLimit": null,
+      "type": null,
+      "datasource": {
+        "filter": false
+      }
+    }
+  ]
+}
